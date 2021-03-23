@@ -26,7 +26,7 @@ CREATE USER user_gyf IDENTIFIED BY 123 DEFAULT TABLESPACE users TEMPORARY TABLES
 ALTER USER user_gyf QUOTA 50M ON users;
 GRANT gyf_res_view TO user_gyf;
 
-### 实验截图：![](pic1.png)
+### 实验截图：<img src="./pic1.png"/>
 
 第2步：新用户user_gyf连接到pdborcl，创建表mytable和视图myview，插入数据，最后将myview的SELECT对象权限授予hr用户。
 ### 实验代码
